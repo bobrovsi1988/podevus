@@ -1,0 +1,117 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+.first-block .callback-form, .first-block .second-row .second-row-left-block, .first-block .second-row .second-row-right-block {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 7px; }
+
+.first-block .second-row .second-row-left-block .second-row-left-block-wite {
+  background-color: white;
+  border-radius: 7px; }
+
+.first-block {
+  height: 1078px;
+  background-image: url("./img/вид_болгарии.jpg");
+  background-size: cover; }
+  .first-block .left-colum a {
+    position: absolute;
+    top: 816px; }
+  .first-block .social-groupe {
+    padding-bottom: 20px; }
+    .first-block .social-groupe a {
+      padding-left: 15px; }
+  .first-block .lable {
+    margin-top: -30px;
+    margin-right: 115px; }
+  .first-block .callback-form {
+    width: 474px;
+    height: 45px; }
+    .first-block .callback-form .mobile {
+      width: 214px;
+      height: 36px;
+      border-radius: 7px;
+      border: 1px #44ab4a solid;
+      background-color: #ffffff; }
+      .first-block .callback-form .mobile :hover {
+        cursor: pointer; }
+      .first-block .callback-form .mobile .mobile-left {
+        width: 36px; }
+      .first-block .callback-form .mobile .mobile-center p {
+        width: 103px;
+        height: 10px;
+        color: #000000;
+        font-family: Calibri;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 25px;
+        text-transform: uppercase; }
+      .first-block .callback-form .mobile .mobile-right {
+        width: 36px; }
+        .first-block .callback-form .mobile .mobile-right div {
+          background-color: #44ab4a;
+          border-radius: 6px; }
+    .first-block .callback-form .callback-btn {
+      color: #ffffff;
+      font-family: Calibri;
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 25px;
+      text-transform: uppercase;
+      background-color: #ff9e04;
+      border-radius: 7px;
+      width: 248px;
+      height: 36px; }
+      .first-block .callback-form .callback-btn :hover {
+        cursor: pointer; }
+  .first-block .second-row img {
+    top: 200px;
+    left: 50%;
+    margin-left: -355px; }
+  .first-block .second-row .second-row-left-block {
+    width: 1009px;
+    height: 543px; }
+    .first-block .second-row .second-row-left-block .second-row-left-block-wite {
+      width: 990px;
+      height: 526px; }
+      .first-block .second-row .second-row-left-block .second-row-left-block-wite .gradient {
+        background-image: url("img/gradient.png");
+        width: 380px;
+        height: 70px;
+        padding-right: 16px;
+        color: #ffffff;
+        font-family: Calibri;
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase; }
+  .first-block .second-row .second-row-right-block {
+    /* Style for "Прямоуголь" */
+    width: 473px;
+    height: 711px; }
+    .first-block .second-row .second-row-right-block .green-alpha {
+      background-color: #44ab4a;
+      background: rgba(68, 171, 74, 0.7);
+      /* Style for "Bulgaria f" */
+      width: 458px;
+      height: 694px;
+      border-radius: 7px; }
+      .first-block .second-row .second-row-right-block .green-alpha .border-white {
+        /* Style for "Прямоуголь" */
+        width: 446px;
+        height: 682px;
+        border: white 1px solid;
+        border-radius: 7px; }
+
+.left-colum {
+  width: 85px;
+  height: 100%;
+  background-image: url("./img/Прямоугольник_4.png"); }
+
+.right-colum {
+  width: 88px; }
+
+.center-colum {
+  padding: 30px 75px; }
+
+/*# sourceMappingURL=style.css.map */
