@@ -74,11 +74,34 @@
     height: 543px; }
     .first-block .second-row .second-row-left-block .second-row-left-block-wite {
       width: 990px;
-      height: 526px; }
+      height: 526px;
+      color: #000000;
+      font-family: Calibri;
+      font-size: 17px;
+      font-weight: 700;
+      font-style: italic; }
+      .first-block .second-row .second-row-left-block .second-row-left-block-wite .bl-1 {
+        color: #000000;
+        font-family: Calibri;
+        font-size: 25px;
+        font-weight: 700;
+        font-style: italic;
+        line-height: 37.5px; }
+      .first-block .second-row .second-row-left-block .second-row-left-block-wite h2 {
+        color: #3aa77d;
+        font-family: Calibri;
+        font-size: 58px;
+        font-weight: bold;
+        line-height: 37.5px;
+        text-transform: uppercase;
+        /* Text style for "в болгарии" */ }
+        .first-block .second-row .second-row-left-block .second-row-left-block-wite h2 span {
+          font-size: 33px; }
       .first-block .second-row .second-row-left-block .second-row-left-block-wite .gradient {
         background-image: url("img/gradient.png");
         width: 380px;
         height: 70px;
+        margin-left: -1.5rem;
         padding-right: 16px;
         color: #ffffff;
         font-family: Calibri;
@@ -208,6 +231,112 @@
         font-size: 33px; }
         .cenral-block .center-colum .center-colum-block .row-star p {
           font-size: 17px; }
+      .cenral-block .center-colum .center-colum-block .block-gray {
+        background-color: #c2d3d9;
+        border-radius: 10px;
+        height: 1182px; }
+      .cenral-block .center-colum .center-colum-block .gray-bg {
+        background-color: #aac0c8;
+        border-radius: 10px;
+        height: 106px; }
+      .cenral-block .center-colum .center-colum-block .groupe-links {
+        height: 96px;
+        background-color: white; }
+        .cenral-block .center-colum .center-colum-block .groupe-links a {
+          border: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #000000;
+          font-family: Calibri;
+          font-weight: 700;
+          line-height: 25px;
+          /* Text style for "АВТОБУС" */
+          font-size: 17px; }
+          .cenral-block .center-colum .center-colum-block .groupe-links a h3 {
+            font-size: 25px; }
+          .cenral-block .center-colum .center-colum-block .groupe-links a.active {
+            color: white;
+            background-color: #aac0c8; }
+        .cenral-block .center-colum .center-colum-block .groupe-links div {
+          background-color: #ff9e04;
+          color: #ffffff;
+          font-family: Calibri;
+          font-size: 17px;
+          font-weight: bold;
+          width: 460px; }
+      .cenral-block .center-colum .center-colum-block .slide-row-1 {
+        height: 587px;
+        background: url("img/centrbloc/slide/content_hotel_5b01fac4d1bb09.12328036_копия.jpg") no-repeat;
+        background-size: cover;
+        border-radius: 10px; }
+        .cenral-block .center-colum .center-colum-block .slide-row-1 card {
+          padding: 10px;
+          background-color: rgba(68, 171, 74, 0.9);
+          width: 458px;
+          border-radius: 10px;
+          color: #ffffff;
+          font-family: Calibri;
+          font-size: 17px;
+          font-weight: 700; }
+          .cenral-block .center-colum .center-colum-block .slide-row-1 card .border-white {
+            border-radius: 10px;
+            border: 2px solid white;
+            padding: 30px; }
+          .cenral-block .center-colum .center-colum-block .slide-row-1 card .price p {
+            padding: 0;
+            margin: 0;
+            font-size: 17px;
+            font-weight: 700;
+            text-transform: uppercase; }
+          .cenral-block .center-colum .center-colum-block .slide-row-1 card button {
+            background-color: #ff9e04;
+            border-radius: 10px;
+            border: 2px solid white;
+            color: #ffffff;
+            font-family: Calibri;
+            font-size: 17px;
+            font-weight: bold;
+            line-height: 25px;
+            text-transform: uppercase;
+            height: 71px; }
+          .cenral-block .center-colum .center-colum-block .slide-row-1 card h5 {
+            font-size: 42px;
+            font-weight: 700;
+            text-transform: uppercase; }
+          .cenral-block .center-colum .center-colum-block .slide-row-1 card h4 {
+            font-size: 33px;
+            font-weight: bold;
+            line-height: 37.5px;
+            text-transform: uppercase; }
+      .cenral-block .center-colum .center-colum-block .slide-row-2 {
+        height: 35px; }
+        .cenral-block .center-colum .center-colum-block .slide-row-2 .left-button {
+          background-color: white;
+          border-radius: 10px;
+          color: #010101;
+          font-family: Calibri;
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 25px;
+          padding: 0px 50px; }
+        .cenral-block .center-colum .center-colum-block .slide-row-2 .right-button {
+          background-color: white;
+          border-radius: 10px;
+          width: 78px; }
+          .cenral-block .center-colum .center-colum-block .slide-row-2 .right-button:hover {
+            cursor: pointer; }
+      .cenral-block .center-colum .center-colum-block .slide-row-3 img {
+        border-radius: 20px; }
+      .cenral-block .center-colum .center-colum-block .slide-row-4 {
+        height: 197px;
+        background-color: white;
+        border-radius: 10px;
+        color: #010101;
+        font-family: Calibri;
+        font-size: 17px;
+        font-weight: 700;
+        font-style: italic; }
 
 .slider .slider-control {
   position: absolute;
