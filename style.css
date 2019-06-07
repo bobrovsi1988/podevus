@@ -402,6 +402,17 @@
   height: 100%;
   background-image: url("./img/Прямоугольник_4.png"); }
 
+.map card {
+  /* Style for "Прямоуголь" */
+  width: 466px;
+  height: 531px; }
+  .map card .bg-white {
+    border: 1px solid #44ab4a;
+    height: 152px; }
+  .map card .bg-green {
+    background-color: #44ab4a;
+    border: 2px solid white; }
+
 footer {
   background-color: #44ab4a;
   height: 36px;

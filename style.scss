@@ -527,6 +527,22 @@ $color-gray:#aac0c8;
 
 
 }
+.map{
+  card{
+    /* Style for "Прямоуголь" */
+    width: 466px;
+    height: 531px;
+    .bg-white{
+      border: 1px solid $color-green;
+      height: 152px;
+    }
+      .bg-green{
+        background-color: $color-green;
+        border: 2px solid white;
+      }
+
+  }
+}
 footer{
   background-color: $color-green;
   height: 36px;
