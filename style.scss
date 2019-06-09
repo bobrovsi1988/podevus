@@ -100,7 +100,9 @@ $color-gray:#aac0c8;
     //детский отдых ранее бронирование
     .second-row-left-block{
       // Style for "Прямоуголь"
-      width: 1009px;
+      //width: 1009px;
+      width: 65%;
+
       height: 543px;
      @extend %background-alpha-wite;
       .second-row-left-block-wite{
@@ -248,7 +250,7 @@ $color-gray:#aac0c8;
     padding-top: 0;
     padding-bottom: 0px;
     .center-colum-block{
-      width: 1600px;
+      //width: 1600px;
       border-radius: 10px;
       background-color: white;
       margin-top: -45px;
@@ -269,7 +271,7 @@ $color-gray:#aac0c8;
           text-transform: uppercase;
           @for $i from 0 through 6{
             .data#{$i}{
-              $lengh:18%*$i;
+              $lengh:19.5%*$i;
               background-position-x: $lengh;
             }
           }
@@ -351,6 +353,7 @@ $color-gray:#aac0c8;
         border-radius: 10px;
 
         card{
+
           padding: 10px;
           background-color: rgba($color-green, 0.9);
           width: 458px;
@@ -423,6 +426,7 @@ $color-gray:#aac0c8;
       }
       .slide-row-3{
         img{
+
           border-radius: 20px;
         }
       }
@@ -529,20 +533,116 @@ $color-gray:#aac0c8;
 }
 .map{
   card{
+    top :20px;
+    right: 10px;
+    z-index: 999;
+    border-radius: 10px;
+
     /* Style for "Прямоуголь" */
+
+
+
     width: 466px;
     height: 531px;
+    button{
+      background-color: orange;
+      border: 1px solid white;
+
+      border-radius: 10px;
+      height: 77px;
+      color: #ffffff;
+      font-family: Calibri;
+      font-size: 17px;
+      font-weight: bold;
+      line-height: 25px;
+      text-transform: uppercase;
+    }
     .bg-white{
-      border: 1px solid $color-green;
+
+padding: 10px;
       height: 152px;
+
+      div{
+        border: 1px solid $color-green;
+        border-radius: 10px 10px  0 0 ;
+        border-bottom: none;
+
+      }
     }
       .bg-green{
+        div{
+          border: 2px solid white;
+          border-top: none;
+          border-radius: 0 0  10px 10px ;
+        }
         background-color: $color-green;
-        border: 2px solid white;
+        padding: 10px;
+        color: #ffffff;
+        font-family: Calibri;
+        font-size: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
       }
 
   }
+  .text-bottom{
+    height: 97px;
+    bottom: -97px;
+    //left: 3%;
+    width: 100%;
+    z-index: 99;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+
+    padding-left: 30px;
+    p{
+      color: #010101;
+      font-family: Calibri;
+      font-size: 33px;
+      font-weight: 700;
+      line-height: 25px;
+    }
+  }
 }
+.block-line-center{
+  height: 100px;
+  background: white url("img/pixel.png") repeat-x ;
+  background-position: left center;
+  color: #010101;
+  font-family: Calibri;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 25px;
+    div{
+      background-color: white;
+      margin-left: 20px;
+      h3{
+        padding: 0 10px;
+        margin: 0;
+        color: #010101;
+        font-family: Calibri;
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 25px;
+
+      }
+      p{
+        margin: 0;
+        padding: 0 10px;
+        color: #010101;
+        font-family: Calibri;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 25px;
+      }
+    }
+
+  }
+
+
+
+
+
 footer{
   background-color: $color-green;
   height: 36px;
@@ -551,7 +651,14 @@ footer{
   font-size: 13px;
   font-weight: bold;
   line-height: 25px;
-  .div{text-transform: uppercase;}
+  div{text-transform: uppercase;}
+  button{
+    background:white url("img/НАВЕРХ.png");
+    /* Style for "НАВЕРХ" */
+    width: 36px;
+    height: 25px;
+
+  }
 
 }
 .right-colum{

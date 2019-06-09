@@ -70,7 +70,7 @@
     left: 50%;
     margin-left: -355px; }
   .first-block .second-row .second-row-left-block {
-    width: 1009px;
+    width: 65%;
     height: 543px; }
     .first-block .second-row .second-row-left-block .second-row-left-block-wite {
       width: 990px;
@@ -186,7 +186,6 @@
     padding-top: 0;
     padding-bottom: 0px; }
     .cenral-block .center-colum .center-colum-block {
-      width: 1600px;
       border-radius: 10px;
       background-color: white;
       margin-top: -45px;
@@ -204,17 +203,17 @@
         .cenral-block .center-colum .center-colum-block .row-data div .data0 {
           background-position-x: 0%; }
         .cenral-block .center-colum .center-colum-block .row-data div .data1 {
-          background-position-x: 18%; }
+          background-position-x: 19.5%; }
         .cenral-block .center-colum .center-colum-block .row-data div .data2 {
-          background-position-x: 36%; }
+          background-position-x: 39%; }
         .cenral-block .center-colum .center-colum-block .row-data div .data3 {
-          background-position-x: 54%; }
+          background-position-x: 58.5%; }
         .cenral-block .center-colum .center-colum-block .row-data div .data4 {
-          background-position-x: 72%; }
+          background-position-x: 78%; }
         .cenral-block .center-colum .center-colum-block .row-data div .data5 {
-          background-position-x: 90%; }
+          background-position-x: 97.5%; }
         .cenral-block .center-colum .center-colum-block .row-data div .data6 {
-          background-position-x: 108%; }
+          background-position-x: 117%; }
         .cenral-block .center-colum .center-colum-block .row-data div div {
           height: 44px;
           width: 100px;
@@ -403,15 +402,86 @@
   background-image: url("./img/Прямоугольник_4.png"); }
 
 .map card {
+  top: 20px;
+  right: 10px;
+  z-index: 999;
+  border-radius: 10px;
   /* Style for "Прямоуголь" */
   width: 466px;
   height: 531px; }
+  .map card button {
+    background-color: orange;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 77px;
+    color: #ffffff;
+    font-family: Calibri;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 25px;
+    text-transform: uppercase; }
   .map card .bg-white {
-    border: 1px solid #44ab4a;
+    padding: 10px;
     height: 152px; }
+    .map card .bg-white div {
+      border: 1px solid #44ab4a;
+      border-radius: 10px 10px 0 0;
+      border-bottom: none; }
   .map card .bg-green {
     background-color: #44ab4a;
-    border: 2px solid white; }
+    padding: 10px;
+    color: #ffffff;
+    font-family: Calibri;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase; }
+    .map card .bg-green div {
+      border: 2px solid white;
+      border-top: none;
+      border-radius: 0 0 10px 10px; }
+.map .text-bottom {
+  height: 97px;
+  bottom: -97px;
+  width: 100%;
+  z-index: 99;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  padding-left: 30px; }
+  .map .text-bottom p {
+    color: #010101;
+    font-family: Calibri;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 25px; }
+
+.block-line-center {
+  height: 100px;
+  background: white url("img/pixel.png") repeat-x;
+  background-position: left center;
+  color: #010101;
+  font-family: Calibri;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 25px; }
+  .block-line-center div {
+    background-color: white;
+    margin-left: 20px; }
+    .block-line-center div h3 {
+      padding: 0 10px;
+      margin: 0;
+      color: #010101;
+      font-family: Calibri;
+      font-size: 33px;
+      font-weight: 700;
+      line-height: 25px; }
+    .block-line-center div p {
+      margin: 0;
+      padding: 0 10px;
+      color: #010101;
+      font-family: Calibri;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 25px; }
 
 footer {
   background-color: #44ab4a;
@@ -421,8 +491,13 @@ footer {
   font-size: 13px;
   font-weight: bold;
   line-height: 25px; }
-  footer .div {
+  footer div {
     text-transform: uppercase; }
+  footer button {
+    background: white url("img/НАВЕРХ.png");
+    /* Style for "НАВЕРХ" */
+    width: 36px;
+    height: 25px; }
 
 .right-colum {
   width: 88px; }

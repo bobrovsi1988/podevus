@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="lib/css/bootstrap.css">
     <link rel="stylesheet" href="style.scss">
     <link rel="stylesheet" href="style.css">
+
+
 </head>
 <body>
 <!--первый блок -->
@@ -55,11 +57,11 @@
 
                 </div>
             </div>
-        <div class="d-flex second-row justify-content-between">
-            <div class="d-flex align-items-center">
+        <div class="d-flex row second-row justify-content-between">
+            <div class="d-flex align-items-center col-sm-6">
                 <div class="second-row-left-block d-flex justify-content-center align-items-center">
                     <div class="second-row-left-block-wite">
-                       <div class="w-50 h-100 d-flex flex-column justify-content-around pl-4"> <p class="bl-1">Ранее бронирование 2019</p>
+                       <div class="w-75 h-100 d-flex flex-column justify-content-around pl-4"> <p class="bl-1">Ранее бронирование 2019</p>
                         <h2>детский отдых<br>
                             <span>в болгарии</span></h2>
                         <p>Компания «ПОДЕВЮС», являясь одним из ведущих туроператоров по болгарскому направлению на белорусском рынке туруслуг, предлагает проекты отдыха для детей и молодежи уже 24 года.
@@ -73,7 +75,7 @@
                 </div>
 
             </div>
-            <div class="second-row-right-block d-flex justify-content-center align-items-center">
+            <div class="second-row-right-block d-flex justify-content-center align-items-center col-sm-5">
                 <div class="green-alpha d-flex justify-content-center align-items-center">
                     <div class="border-white d-flex flex-column justify-content-around">
                         <div class="block-1 text-right d-flex justify-content-end">
@@ -99,7 +101,7 @@
                 </div>
             </div>
 
-            <img class="position-absolute big-img" src="img/first-block-img.png">
+            <img class="position-absolute big-img  d-md-none d-lg-block " src="img/first-block-img.png">
         </div>
     </div>
     <!--средняя колока конец-->
@@ -110,7 +112,7 @@
 
 <!--первый блок конец-->
 <!--Основной блок-->
-<div class="container-fluid cenral-block p-0 d-flex" >
+<div class="container-fluid cenral-block p-0 d-flex h-100" >
     <div class="left-colum h-100 d-flex justify-content-center">
     </div>
     <div class="w-100 h100 center-colum bg-white">
@@ -131,6 +133,21 @@
                     НАЦЕНОК И
                     ПЕРЕПЛАТ
                 </div>
+                <div >
+                    <div class="data3"></div>
+                    ЭКОНОМИЯ
+                    ВАШЕГО БЮДЖЕТА
+                </div>
+                <div >
+                    <div class="data4"></div>
+                    НА СВЯЗИ
+                    С ОТДЫХАЮЩИМИ
+                </div>
+                <div >
+                    <div class="data5"></div>
+                    ИНДИВИДУАЛЬНЫ
+                    ПОДХОД
+                </div>
             </div>
 
 
@@ -147,6 +164,15 @@
                         необходимые консультации</p>
                 </div>
                 <div></div>
+            </div>
+
+
+            <!--блок с линией по центру-->
+            <div class="w-100 block-line-center d-flex align-items-center">
+                <div>
+                <h3>ПОПУЛЯРНЫЕ МОЛОДЕЖНЫЕ ЦЕНТРЫ</h3>
+                    <p>ВЫБЕРИТЕ ЦЕНТР ДЛЯ ОТДЫХА</p>
+                    </div>
             </div>
             <!--блок лист и слайдер-->
             <div class="block-gray pb-2 ">
@@ -188,7 +214,7 @@
                         <div class="tab-content m-2 " id="nav-tabContent">
                             <div class="tab-pane fade show active " id="list-home" role="tabpanel" aria-labelledby="list-home-list">
                                 <!--slide-->
-                               <div class="central-block-slide d-flex justify-content-end slide-row-1">
+                               <div class="central-block-slide d-flex justify-content-end slide-row-1 ">
                                    <card class="d-flex  justify-content-center align-items-center h-100">
                                        <div class="border-white d-flex flex-column justify-content-around h-100 " >
 
@@ -238,27 +264,50 @@
                                    </card>
                                </div>
                                 <!--slide end-->
-                                <div class="d-flex w-100 justify-content-between slide-row-2 ">
-                                    <button class="left-button">КРАТКИЙ ОБЗОР ЦЕНТРА</button>
+                                <div class="d-flex w-100 justify-content-between slide-row-2 m-2 ">
+                                    <button class="left-button ">КРАТКИЙ ОБЗОР ЦЕНТРА</button>
                                     <div class="right-button d-flex justify-content-around h-100">
-                                        <div>
+                                        <div class="prev">
                                             <img src="img/centrbloc/slide/Группа_33_копия_2.png" height="15"
                                                   width="8"/>
                                         </div>
-                                        <div>
+                                        <div class="next">
                                             <img src="img/centrbloc/slide/Группа_33_копия.png" height="15" width="8"/>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="slide-row-3 d-flex justify-content-between">
+                                <div class="slide-row-3 d-flex justify-content-between ">
+
+                                    <div class="main">
 
 
-                                    <img src="img/centrbloc/slide/Слой_30_копия.jpg" height="144" width="252"/>
-                                    <img src="img/centrbloc/slide/Слой_29_копия.jpg" height="144" width="252"/>
-                                    <img src="img/centrbloc/slide/Слой_28_копия.jpg" height="144" width="252"/>
-                                    <img src="img/centrbloc/slide/Слой_27_копия.jpg" height="144" width="252"/>
-                                    <img src="img/centrbloc/slide/Слой_26_копия.jpg" height="144" width="252"/>
-                                    <img src="img/centrbloc/slide/Слой_25_копия.jpg" height="144" width="252"/>
+                                        <div class="gallery" style="visibility: visible; overflow: hidden; position: relative; z-index: 2; left: 0px; width: 510px;">
+                                            <ul style="margin: 0px; padding: 0px; position: relative; list-style-type: none; z-index: 1; width: 2210px; left: -510px;">
+                                                <li style="overflow: hidden; float: left; "><img src="img/centrbloc/slide/Слой_30_копия.jpg" alt=""></li>
+                                                <li style="overflow: hidden; float: left; "><img src="img/centrbloc/slide/Слой_30_копия.jpg" alt=""></li>
+                                                <li style="overflow: hidden; float: left; "><img src="img/centrbloc/slide/Слой_30_копия.jpg" alt=""></li>
+                                                <li style="overflow: hidden; float: left; "><img src="img/centrbloc/slide/Слой_30_копия.jpg" alt=""></li>
+                                                <li style="overflow: hidden; float: left; "><img src="img/centrbloc/slide/Слой_30_копия.jpg" alt=""></li>
+                                                <li style="overflow: hidden; float: left; "><img src="img/centrbloc/slide/Слой_30_копия.jpg" alt=""></li>
+                                                <li style="overflow: hidden; float: left; "><img src="img/centrbloc/slide/Слой_30_копия.jpg" alt=""></li>
+                                                <li style="overflow: hidden; float: left; "><img src="img/centrbloc/slide/Слой_30_копия.jpg" alt=""></li>
+                                                <li style="overflow: hidden; float: left; "><img src="img/centrbloc/slide/Слой_30_копия.jpg" alt=""></li>
+                                                <li style="overflow: hidden; float: left; "><img src="img/centrbloc/slide/Слой_30_копия.jpg" alt=""></li>
+
+                                            </ul>
+
+                                        </div>
+
+
+
+                                    </div>
+
+                                    <!--<div class="col-sm-1"><img src="img/centrbloc/slide/Слой_30_копия.jpg" class="col-sm2"/></div>-->
+                                    <!--<div class="col-sm-1"><img src="img/centrbloc/slide/Слой_30_копия.jpg" class="col-sm2"/></div>-->
+                                    <!--<div class="col-sm-1"><img src="img/centrbloc/slide/Слой_30_копия.jpg" class="col-sm2"/></div>-->
+                                    <!--<div class="col-sm-1"><img src="img/centrbloc/slide/Слой_30_копия.jpg" class="col-sm2"/></div>-->
+                                    <!--<div class="col-sm-1"><img src="img/centrbloc/slide/Слой_30_копия.jpg" class="col-sm2"/></div>-->
+
                                 </div>
                                 <div class="slide-row-4 text-center d-flex justify-content-center align-items-center">
                                     <p>
@@ -364,33 +413,46 @@
 
             </div>
             <!--блок лист и слайдер-->
+            <!--карта -->
             <div class="position-relative map">
-                <card class="position-absolute h-25 bg-white" style="top :20px; right: 0px; z-index: 999;">
-                    <div class="bg-white">
+                <card class="position-absolute   d-flex justify-content-center align-items-center flex-column h-100" style="">
+                   <div class="h-25 w-100 bg-white d-flex justify-content-center align-items-center pb-0">
+                       <div class=" w-100  d-flex justify-content-center align-items-center h-100">
 
-                        <img src="img/centrbloc/slide/лого.png" height="71" width="281"/></div>
-                    <div class="bg-green">
-                        <p>220093, Г.МИНСК,
-                            УЛ. ОЛЬШЕВСКОГО, 28</p>
-                        <p>220030, Г.МИНСК,
-                            УЛ. КОМСОМОЛЬСКАЯ, 13</p>
-                        <button>ЗАКАЗАТЬ ЗВОНОК</button>
+                            <img src="img/centrbloc/slide/лого.png" height="71" width="281"/>
+                       </div>
+                   </div>
+                    <div class="h-75 bg-green w-100 d-flex justify-content-center align-items-center pt-0 ">
+                        <div class=" w-100 d-flex justify-content-around align-items-center  flex-column h-100 text-center ">
 
+
+                            <p class="w-75">220093, Г.МИНСК,<br>
+                                УЛ. ОЛЬШЕВСКОГО, 28</p>
+                            <p class="w-75">220030, Г.МИНСК,<br>
+                                УЛ. КОМСОМОЛЬСКАЯ, 13</p>
+                            <button class="w-75">ЗАКАЗАТЬ ЗВОНОК</button>
+
+                        </div>
                     </div>
+
                 </card>
+                <div class="position-absolute text-bottom d-flex align-items-center">
+                    <p>ПУСТЬ ФОТО РАССКАЖУТ ЗА НАС</p>
+                </div>
                 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A118c095e21ed6b8d1472bbc7c6cd6a181544f448325e0d0189eb48f972be4c05&amp;width=100%25&amp;height=530&amp;lang=ru_RU&amp;scroll=true"></script></div>
             </div>
         </div>
+    <!--конец карты-->
 
-
-    </div>
     <div class="right-colum h-100 d-flex justify-content-center">
 
     </div>
+    </div>
+
 </div>
 <!--Основной блок конец-->
 <!--слайдер-->
-<div class="container-fluid slider p-0 d-flex">
+<div class="container-fluid slider p-0 d-flex justify-content-center">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
         <div class="carousel-inner">
@@ -430,11 +492,17 @@
 
 </div>
 <!--конец слайдера-->
+<!--блок с линией по центру-->
+<div class="w-100 block-line-center d-flex align-items-center justify-content-center">
+    <div>
+        <h3>ВСЕ МОЛОДЕЖНЫЕ ЦЕНТРЫ</h3>
 
+    </div>
+</div>
 <!--карточки-->
-<div class="container-fluid cards-tur p-o d-flex justify-content-around">
+<div class="container-fluid cards-tur p-o d-flex justify-content-around row p-3">
     <card>
-        <div class="w-100 h-100 cards-tur-block  flex-column justify-content-around align-items-center text-center">
+        <div class="w-100 h-100 cards-tur-block  flex-column justify-content-around align-items-center text-center ">
             <p>ТИН ПАЛАС
                 АВИА</p>
             <p>от 485 ЕВРО<br><span>с человека за 14 ночей</span></p>
@@ -482,11 +550,18 @@
 </div>
 <footer class="container-fluid p-0 d-flex justify-content-between align-items-end">
 <p class="m-0">ООО "ПОДЕВЮС, PODEVUS" 2019. Все права защищеныООО "ПОДЕВЮС, PODEVUS" 2019. Все права защищены</p>
-    <div class="d-flex align-items-end">OVEREST<button>sda</button></div>
+    <div class="d-flex align-items-end pr-3">OVEREST<button id="toTop"></button></div>
 </footer>
 <!--карточки конец-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="lib/js/bootstrap.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="lib/Carusel.js"></script>
+<script>
+
+</script>
+
+<script src="js.js"></script>
 </body>
 </html>
