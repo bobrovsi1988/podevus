@@ -29,3 +29,4 @@ jQuery(function(){
         visible:5
     });
 })
+console.log($(window).width());
