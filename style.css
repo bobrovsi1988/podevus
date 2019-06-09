@@ -328,7 +328,7 @@
       .cenral-block .center-colum .center-colum-block .slide-row-3 img {
         border-radius: 20px; }
       .cenral-block .center-colum .center-colum-block .slide-row-4 {
-        height: 197px;
+        height: 100%;
         background-color: white;
         border-radius: 10px;
         color: #010101;
@@ -355,7 +355,7 @@
   .slider .slider-control .left-arr {
     background: #44ab4a url("img/slider/double-left.png") no-repeat center center; }
   .slider .slider-control .right-arr {
-    background: #44ab4a url("img/slider/double-left.png") no-repeat center center; }
+    background: #44ab4a url("img/slider/imgonline-com-ua-Rotate-360-dK2DPgKDBQCz9tcN.png") no-repeat center center; }
 .slider ol {
   list-style: none; }
 .slider li {
