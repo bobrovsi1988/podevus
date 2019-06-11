@@ -70,16 +70,16 @@
     left: 50%;
     margin-left: -355px; }
   .first-block .second-row .second-row-left-block {
-    width: 65%;
-    height: 543px; }
+    width: 65%; }
     .first-block .second-row .second-row-left-block .second-row-left-block-wite {
       width: 990px;
-      height: 526px;
       color: #000000;
       font-family: Calibri;
       font-size: 17px;
       font-weight: 700;
       font-style: italic; }
+      .first-block .second-row .second-row-left-block .second-row-left-block-wite p {
+        width: 90%; }
       .first-block .second-row .second-row-left-block .second-row-left-block-wite .bl-1 {
         color: #000000;
         font-family: Calibri;
@@ -101,7 +101,7 @@
         background-image: url("img/gradient.png");
         width: 380px;
         height: 70px;
-        margin-left: -1.5rem;
+        margin-left: -3rem;
         padding-right: 16px;
         color: #ffffff;
         font-family: Calibri;
@@ -110,11 +110,10 @@
         text-transform: uppercase; }
   .first-block .second-row .second-row-right-block {
     /* Style for "Прямоуголь" */
-    width: 473px;
     height: 711px; }
     .first-block .second-row .second-row-right-block .green-alpha {
       background-color: #44ab4a;
-      background: rgba(68, 171, 74, 0.7);
+      background: rgba(68, 171, 74, 0.9);
       /* Style for "Bulgaria f" */
       width: 458px;
       height: 694px;
@@ -200,24 +199,9 @@
         font-size: 17px;
         font-weight: 700;
         text-transform: uppercase; }
-        .cenral-block .center-colum .center-colum-block .row-data div .data0 {
-          background-position-x: 0%; }
-        .cenral-block .center-colum .center-colum-block .row-data div .data1 {
-          background-position-x: 19.5%; }
-        .cenral-block .center-colum .center-colum-block .row-data div .data2 {
-          background-position-x: 39%; }
-        .cenral-block .center-colum .center-colum-block .row-data div .data3 {
-          background-position-x: 58.5%; }
-        .cenral-block .center-colum .center-colum-block .row-data div .data4 {
-          background-position-x: 78%; }
-        .cenral-block .center-colum .center-colum-block .row-data div .data5 {
-          background-position-x: 97.5%; }
-        .cenral-block .center-colum .center-colum-block .row-data div .data6 {
-          background-position-x: 117%; }
         .cenral-block .center-colum .center-colum-block .row-data div div {
           height: 44px;
-          width: 100px;
-          background: url("img/centrbloc/цифры_иконки.png") 100% 100% no-repeat; }
+          width: 100px; }
       .cenral-block .center-colum .center-colum-block .row-star {
         height: 215px;
         background-color: #44ab4a;
@@ -231,9 +215,8 @@
         .cenral-block .center-colum .center-colum-block .row-star p {
           font-size: 17px; }
       .cenral-block .center-colum .center-colum-block .block-gray {
-        background-color: #c2d3d9;
-        border-radius: 10px;
-        height: 1182px; }
+        background-color: #d0e3ea;
+        border-radius: 10px; }
       .cenral-block .center-colum .center-colum-block .gray-bg {
         background-color: #aac0c8;
         border-radius: 10px;
@@ -248,6 +231,9 @@
           align-items: center;
           color: #000000;
           font-family: Calibri;
+          background-image: url("img/line.png");
+          background-repeat: no-repeat;
+          background-position: right center;
           font-weight: 700;
           line-height: 25px;
           /* Text style for "АВТОБУС" */
@@ -270,18 +256,17 @@
         background-size: cover;
         border-radius: 10px; }
         .cenral-block .center-colum .center-colum-block .slide-row-1 card {
-          padding: 10px;
           background-color: rgba(68, 171, 74, 0.9);
           width: 458px;
           border-radius: 10px;
           color: #ffffff;
+          line-height: 19px;
           font-family: Calibri;
           font-size: 17px;
           font-weight: 700; }
           .cenral-block .center-colum .center-colum-block .slide-row-1 card .border-white {
             border-radius: 10px;
-            border: 2px solid white;
-            padding: 30px; }
+            border: 2px solid white; }
           .cenral-block .center-colum .center-colum-block .slide-row-1 card .price p {
             padding: 0;
             margin: 0;
@@ -325,6 +310,18 @@
           width: 78px; }
           .cenral-block .center-colum .center-colum-block .slide-row-2 .right-button:hover {
             cursor: pointer; }
+          .cenral-block .center-colum .center-colum-block .slide-row-2 .right-button .prev {
+            background-image: url("img/centrbloc/slide/Группа_33_копия_2.png");
+            background-position: center center;
+            background-repeat: no-repeat; }
+            .cenral-block .center-colum .center-colum-block .slide-row-2 .right-button .prev:hover {
+              background-image: url("img/centrbloc/slide/hover_left.png"); }
+          .cenral-block .center-colum .center-colum-block .slide-row-2 .right-button .next {
+            background-image: url("img/centrbloc/slide/arrow_right.png");
+            background-position: center center;
+            background-repeat: no-repeat; }
+            .cenral-block .center-colum .center-colum-block .slide-row-2 .right-button .next:hover {
+              background-image: url("img/centrbloc/slide/Группа_33_копия.png"); }
       .cenral-block .center-colum .center-colum-block .slide-row-3 img {
         border-radius: 20px; }
       .cenral-block .center-colum .center-colum-block .slide-row-4 {
@@ -335,7 +332,8 @@
         font-family: Calibri;
         font-size: 17px;
         font-weight: 700;
-        font-style: italic; }
+        font-style: italic;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); }
 
 .slider .slider-control {
   position: absolute;
@@ -365,11 +363,20 @@
   border-radius: 10px;
   margin-right: 15px; }
 
+.cards-tur .img_1-card-bg {
+  background-image: url("img/cards/img_1.jpg"); }
+.cards-tur .img_2-card-bg {
+  background-image: url("img/cards/img_2.jpg"); }
+.cards-tur .img_3-card-bg {
+  background-image: url("img/cards/img_3.jpg"); }
+.cards-tur .img_4-card-bg {
+  background-image: url("img/cards/img_4.jpg"); }
+.cards-tur .img_5-card-bg {
+  background-image: url("img/cards/img_5.jpg"); }
 .cards-tur card {
   /* Style for "Слой 506 к" */
   width: 298px;
-  height: 391px;
-  background-image: url("img/cards/Слой_506_копия.jpg"); }
+  height: 391px; }
   .cards-tur card p {
     color: #ffffff;
     font-family: Calibri;
@@ -498,6 +505,10 @@ footer {
     /* Style for "НАВЕРХ" */
     width: 36px;
     height: 25px; }
+
+.gallery li {
+  padding: 5px;
+  width: 18%; }
 
 .right-colum {
   width: 88px; }

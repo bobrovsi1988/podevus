@@ -103,12 +103,13 @@ $color-gray:#aac0c8;
       //width: 1009px;
       width: 65%;
 
-      height: 543px;
+      //height: 543px;
      @extend %background-alpha-wite;
       .second-row-left-block-wite{
+        p{width: 90%}
         // Style for "Прямоуголь"
         width: 990px;
-        height: 526px;
+        //height: 526px;
         color: #000000;
         font-family: Calibri;
         font-size: 17px;
@@ -139,7 +140,7 @@ $color-gray:#aac0c8;
           // Style for "Прямоуголь"
           width: 380px;
           height: 70px;
-          margin-left: -1.5rem;
+          margin-left: -3rem;
           // Style for "от 285 ЕВР"
          padding-right: 16px;
           color: #ffffff;
@@ -153,12 +154,12 @@ $color-gray:#aac0c8;
     //заполните форму
     .second-row-right-block{
       /* Style for "Прямоуголь" */
-      width: 473px;
+      //width: 473px;
       height: 711px;
       @extend %background-alpha-wite;
       .green-alpha{
         background-color: $color-green;
-        background:rgba($color-green, 0.7);
+        background:rgba($color-green, 0.9);
         /* Style for "Bulgaria f" */
         width: 458px;
         height: 694px;
@@ -269,16 +270,16 @@ $color-gray:#aac0c8;
           font-size: 17px;
           font-weight: 700;
           text-transform: uppercase;
-          @for $i from 0 through 6{
-            .data#{$i}{
-              $lengh:19.5%*$i;
-              background-position-x: $lengh;
-            }
-          }
+          //@for $i from 0 through 6{
+          //  .data#{$i}{
+          //    $lengh:19.5%*$i;
+          //    background-position-x: $lengh;
+          //  }
+          //}
           div{
             height: 44px;
             width: 100px;
-            background: url("img/centrbloc/цифры_иконки.png") 100% 100% no-repeat;
+            //background: url("img/centrbloc/цифры_иконки.png") 100% 100% no-repeat;
             //background-position-x: 18%;
           }
         }
@@ -300,9 +301,9 @@ $color-gray:#aac0c8;
 
       }
       .block-gray{
-        background-color: #c2d3d9;
+        background-color: #d0e3ea;
         border-radius: 10px;
-        height: 1182px;
+
 
       }
       .gray-bg{
@@ -323,6 +324,9 @@ $color-gray:#aac0c8;
           align-items: center;
           color: #000000;
           font-family: Calibri;
+          background-image: url("img/line.png");
+          background-repeat: no-repeat;
+          background-position: right center;
 
           font-weight: 700;
           line-height: 25px;
@@ -354,18 +358,19 @@ $color-gray:#aac0c8;
 
         card{
 
-          padding: 10px;
+          //padding: 10px;
           background-color: rgba($color-green, 0.9);
           width: 458px;
           border-radius: 10px;
           color: #ffffff;
+          line-height: 19px;
           font-family: Calibri;
           font-size: 17px;
           font-weight: 700;
           .border-white{
             border-radius: 10px;
             border: 2px solid white;
-            padding: 30px;
+            //padding: 30px;
 
           }
           .price{
@@ -419,7 +424,27 @@ $color-gray:#aac0c8;
           background-color: white;
           border-radius: 10px;
           width: 78px;
-          &:hover{cursor: pointer;}
+          &:hover{cursor: pointer;
+
+          }
+          .prev{
+            background-image: url("img/centrbloc/slide/Группа_33_копия_2.png");
+            background-position: center center;
+            background-repeat: no-repeat;
+            &:hover{
+            background-image: url("img/centrbloc/slide/hover_left.png");
+          }
+          }
+
+          .next{
+            background-image: url("img/centrbloc/slide/arrow_right.png");
+            background-position: center center;
+            background-repeat: no-repeat;
+            &:hover{
+              background-image: url("img/centrbloc/slide/Группа_33_копия.png");
+
+            }
+          }
 
         }
 
@@ -439,6 +464,8 @@ $color-gray:#aac0c8;
         font-size: 17px;
         font-weight: 700;
         font-style: italic;
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+
       }
     }
   }
@@ -484,11 +511,16 @@ $color-gray:#aac0c8;
   }
 }
 .cards-tur{
+  @each $img in img_1, img_2, img_3,img_4,img_5 {
+    .#{$img}-card-bg {
+      background-image: url('img/cards/#{$img}.jpg');
+    }
+  }
   card{
     /* Style for "Слой 506 к" */
     width: 298px;
     height: 391px;
-    background-image: url("img/cards/Слой_506_копия.jpg");
+    //background-image: url("img_2.jpg");
     p{
       color: #ffffff;
       font-family: Calibri;
@@ -660,6 +692,11 @@ footer{
 
   }
 
+}
+.gallery{
+  li{padding: 5px;
+  width: 18%;
+  }
 }
 .right-colum{
   width: 88px;
