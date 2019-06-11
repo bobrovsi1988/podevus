@@ -111,6 +111,9 @@
   .first-block .second-row .second-row-right-block {
     /* Style for "Прямоуголь" */
     height: 711px; }
+    @media screen and (max-width: 1920px) {
+      .first-block .second-row .second-row-right-block {
+        width: 472px; } }
     .first-block .second-row .second-row-right-block .green-alpha {
       background-color: #44ab4a;
       background: rgba(68, 171, 74, 0.9);
@@ -139,7 +142,7 @@
           font-weight: bold;
           line-height: 37.5px;
           text-transform: uppercase; }
-        .first-block .second-row .second-row-right-block .green-alpha .border-white .block-2 image {
+        .first-block .second-row .second-row-right-block .green-alpha .border-white .block-2 img {
           /* Style for "232743" */
           width: 65px;
           height: 61px; }
@@ -500,8 +503,8 @@ footer {
   line-height: 25px; }
   footer div {
     text-transform: uppercase; }
-  footer button {
-    background: white url("img/НАВЕРХ.png");
+  footer .button {
+    background: #44ab4a url("img/НАВЕРХ.png");
     /* Style for "НАВЕРХ" */
     width: 36px;
     height: 25px; }

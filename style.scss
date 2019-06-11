@@ -155,6 +155,9 @@ $color-gray:#aac0c8;
     .second-row-right-block{
       /* Style for "Прямоуголь" */
       //width: 473px;
+      @media screen and (max-width: 1920px){
+        width: 472px;
+      }
       height: 711px;
       @extend %background-alpha-wite;
       .green-alpha{
@@ -192,7 +195,7 @@ $color-gray:#aac0c8;
             }
           }
           .block-2{
-            image{/* Style for "232743" */
+            img{/* Style for "232743" */
               width: 65px;
               height: 61px;}
             p{
@@ -684,8 +687,8 @@ footer{
   font-weight: bold;
   line-height: 25px;
   div{text-transform: uppercase;}
-  button{
-    background:white url("img/НАВЕРХ.png");
+  .button{
+    background:$color-green url("img/НАВЕРХ.png");
     /* Style for "НАВЕРХ" */
     width: 36px;
     height: 25px;
@@ -695,8 +698,8 @@ footer{
 }
 .gallery{
   li{padding: 5px;
-  width: 18%;
-  }
+  //width: 18%;
+ width: 18% }
 }
 .right-colum{
   width: 88px;

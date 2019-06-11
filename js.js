@@ -22,11 +22,75 @@ $(function() {
 
 });
 // window.onload().
-jQuery(function(){
-    jQuery(".gallery").jCarouselLite({
-        btnNext: ".next",
-        btnPrev: ".prev",
-        visible:5
+// jQuery(function(){
+//     jQuery(".gallery").jCarouselLite({
+//         btnNext: ".next",
+//         btnPrev: ".prev",
+//         visible:6
+//     });
+// });
+
+
+console.log($( window ).width());
+if($( window ).width() <1000){
+    console.log("hellow");
+
+    $(document).ready(function(){
+        $('.bla').slick({
+            infinite: true,
+            dots: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            dots:0,
+            prevArrow: $('.prev'),
+            nextArrow: $('.next'),
+        });
+        $('.next').click(function(e){
+            e.preventDefault();
+            $('.bla').slick('slickNext');
+        });
+        $('.prev').click(function(e){
+            e.preventDefault();
+            $('.bla').slick('slickPrev');
+        });
+
     });
-})
-console.log($(window).width());
+
+    $(document).ready(function(){
+        $('.cards-tur').slick({
+            infinite: true,
+            dots: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            dots:0,
+            arrows:0,
+            draggable:true,
+        });
+        $('.cards-tur').css({"display": "block"});
+
+
+    });
+
+
+}else {
+    $(document).ready(function(){
+        $('.bla').slick({
+            infinite: true,
+            dots: true,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            dots:0,
+            prevArrow: $('.prev'),
+            nextArrow: $('.next'),
+        });
+        $('.next').click(function(e){
+            e.preventDefault();
+            $('.bla').slick('slickNext');
+        });
+        $('.prev').click(function(e){
+            e.preventDefault();
+            $('.bla').slick('slickPrev');
+        });
+
+    });
+}
