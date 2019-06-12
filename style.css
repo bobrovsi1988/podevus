@@ -7,6 +7,11 @@
   background: rgba(255, 255, 255, 0.5);
   border-radius: 7px; }
 
+.br-white {
+  background-image: url("img/Фигура_4.png");
+  background-repeat: no-repeat;
+  background-position: center right; }
+
 .first-block .second-row .second-row-left-block .second-row-left-block-wite, .first-block .second-row .second-row-right-block .green-alpha .border-white form input {
   background-color: white;
   border-radius: 7px; }

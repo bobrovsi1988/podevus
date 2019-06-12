@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="702640f9-f5cd-4703-abd9-6e9815af922e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/CONTRIBUTING.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/README.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/slick.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/slick/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/slick/config.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/slick/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/slick/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/slick/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/slick/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/slick/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/slick/slick-theme.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/slick/slick-theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/slick/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/slick/slick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/slick/slick.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/slick/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slick-1.8.1/slick/slick.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
@@ -46,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="622" lean-forward="true" selection-start-line="622" selection-end-line="622" />
+            <state relative-caret-position="323">
+              <caret line="167" column="114" lean-forward="true" selection-start-line="167" selection-start-column="106" selection-end-line="167" selection-end-column="114" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -113,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="454" column="7" selection-start-line="454" selection-start-column="7" selection-end-line="454" selection-end-column="7" />
+            <state relative-caret-position="170">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -173,9 +146,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lib/Carusel.js" />
-        <option value="$PROJECT_DIR$/style.scss" />
         <option value="$PROJECT_DIR$/js.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.scss" />
       </list>
     </option>
   </component>
@@ -291,7 +264,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559682849360</updated>
       <workItem from="1559682850580" duration="115838000" />
-      <workItem from="1560284844532" duration="9537000" />
+      <workItem from="1560284844532" duration="12320000" />
     </task>
     <task id="LOCAL-00001" summary="first day">
       <created>1559718311627</created>
@@ -304,7 +277,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125375000" />
+    <option name="totallyTimeSpent" value="128158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -487,13 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="454" column="7" selection-start-line="454" selection-start-column="7" selection-end-line="454" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -503,14 +469,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="622" lean-forward="true" selection-start-line="622" selection-end-line="622" />
+        <state relative-caret-position="323">
+          <caret line="167" column="114" lean-forward="true" selection-start-line="167" selection-start-column="106" selection-end-line="167" selection-end-column="114" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
