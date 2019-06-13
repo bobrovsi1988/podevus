@@ -436,6 +436,7 @@
     line-height: 25px;
     text-transform: uppercase; }
   .map card .bg-white {
+    border-radius: 10px 10px 0px 0;
     padding: 10px;
     height: 152px; }
     .map card .bg-white div {
@@ -443,6 +444,7 @@
       border-radius: 10px 10px 0 0;
       border-bottom: none; }
   .map card .bg-green {
+    border-radius: 0px 0 10px 10px;
     background-color: #44ab4a;
     padding: 10px;
     color: #ffffff;

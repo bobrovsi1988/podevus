@@ -598,8 +598,9 @@ $color-gray:#aac0c8;
       text-transform: uppercase;
     }
     .bg-white{
+      border-radius: 10px 10px 0px 0;
 
-padding: 10px;
+      padding: 10px;
       height: 152px;
 
       div{
@@ -610,6 +611,8 @@ padding: 10px;
       }
     }
       .bg-green{
+
+        border-radius: 0px 0 10px 10px;
         div{
           border: 2px solid white;
           border-top: none;
