@@ -40,25 +40,25 @@
                     <img src="img/лейбл.png" height="110" width="96"/>
                 </div>
                 <!--обратка-->
-                <div class="callback-form d-flex align-items-center justify-content-around">
-                   <div class="mobile d-flex justify-content-between">
-                       <div class="mobile-left d-flex align-items-center justify-content-center">
-                           <img  src="img/w352h5121380477012phone.png">
-                       </div>
-                       <div class="mobile-center d-flex ">
-                           <p class="align-self-center">наши телефоны</p>
-                       </div>
-                       <div class="mobile-right" >
-                           <div class="w-100 h-100 d-flex justify-content-center" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="align-self-center"  src="img/double-left.png"></div>
-                           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                               <a class="dropdown-item" href="#">(+375 29) 618 91 81</a>
-                               <a class="dropdown-item" href="#">(+375 29) 576 91 81</a>
-                               <a class="dropdown-item" href="#">(+375 29) 628 55 46  </a>
-                               <a class="dropdown-item" href="#">(+375 33) 334 62 62 </a>
-                           </div>
-                       </div>
+                <div class="callback-form d-flex align-items-center justify-content-around" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="mobile d-flex justify-content-between">
+                        <div class="mobile-left d-flex align-items-center justify-content-center">
+                            <img  src="img/w352h5121380477012phone.png">
+                        </div>
+                        <div class="mobile-center d-flex ">
+                            <p class="align-self-center">наши телефоны</p>
+                        </div>
+                        <div class="mobile-right" >
+                            <div class="w-100 h-100 d-flex justify-content-center" ><img class="align-self-center"  src="img/double-left.png"></div>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="tel: +375296189181">(+375 29) 618 91 81</a>
+                                <a class="dropdown-item" href="tel: +375295769181">(+375 29) 576 91 81</a>
+                                <a class="dropdown-item" href="tel: +375296285546">(+375 29) 628 55 46  </a>
+                                <a class="dropdown-item" href="tel: +375293346262">(+375 33) 334 62 62 </a>
+                            </div>
+                        </div>
 
-                   </div>
+                    </div>
                     <div class="callback-btn d-flex justify-content-center align-items-center">
                         обратная связь
 
@@ -86,7 +86,7 @@
                 </div>
 
             </div>
-<div class="col-sm-12 col-lg-4 d-flex justify-content-end ">
+<div class="col-sm-12 col-lg-4 d-flex justify-content-lg-end justify-content-sm-center">
     <div class="second-row-right-block d-flex justify-content-center align-items-center p-2 ">
                 <div class="green-alpha d-flex justify-content-center align-items-center w-100 p-2">
                     <div class="border-white d-flex flex-column justify-content-around w-100">
@@ -101,13 +101,14 @@
                                 ИНТЕРЕСНЫЕ ПРЕДЛОЖЕНИЯ
                                 ПО БОЛГАРИИ</p>
                         </div>
-                        <form class="w-100 d-flex flex-column justify-content-between">
-                            <input type="text" placeholder="Ваше имя">
-                            <input type="text" placeholder="Введите телефон">
-                            <input type="text" placeholder="Количество человек">
-                            <input type="text" placeholder="Месяц выезда">
+                        <form class="w-100 d-flex flex-column justify-content-between" enctype="multipart/form-data"  method="post" action="./email.php" id="form" name="form">
+                            <input type="text" name="name" placeholder="Ваше имя" >
+                            <input type="text" name="tel" placeholder="Введите телефон" >
+                            <input type="text" name="peoples" placeholder="Количество человек">
+                            <input type="text" name="month" placeholder="Месяц выезда">
+
                         </form>
-                        <BUTTON>ПОДБЕРИТЕ МНЕ ТУР</BUTTON>
+                        <BUTTON type="submit" form="form">ПОДБЕРИТЕ МНЕ ТУР</BUTTON>
 
                     </div>
                 </div>
@@ -279,10 +280,10 @@
                                 <div class="d-flex w-100 justify-content-between slide-row-2 m-2 ">
                                     <button class="left-button ">КРАТКИЙ ОБЗОР ЦЕНТРА</button>
                                     <div class="right-button d-flex justify-content-around h-100 mr-3">
-                                        <div class="prev w-50" id="prev">
+                                        <div class="prev w-50" >
 
                                         </div>
-                                        <div class="next w-50" id="next">
+                                        <div class="next w-50" >
                                         </div>
                                     </div>
                                 </div>
@@ -686,5 +687,8 @@
 </script>
 
 <script src="js.js"></script>
+
+
+<script src="ajax.js"></script>
 </body>
 </html>

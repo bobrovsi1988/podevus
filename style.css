@@ -41,6 +41,8 @@
       background-color: #ffffff; }
       .first-block .callback-form .mobile :hover {
         cursor: pointer; }
+      .first-block .callback-form .mobile .dropdown-menu a {
+        color: white; }
       .first-block .callback-form .mobile .mobile-left {
         width: 36px; }
       .first-block .callback-form .mobile .mobile-center p {
@@ -115,7 +117,8 @@
         text-transform: uppercase; }
   .first-block .second-row .second-row-right-block {
     /* Style for "Прямоуголь" */
-    height: 711px; }
+    height: 711px;
+    border-radius: 15px; }
     @media screen and (max-width: 1920px) {
       .first-block .second-row .second-row-right-block {
         width: 472px; } }

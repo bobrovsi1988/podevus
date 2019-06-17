@@ -51,7 +51,9 @@ $color-gray:#aac0c8;
       :hover{
         cursor: pointer;
       }
-
+      .dropdown-menu{
+        a{color: white;}
+      }
       .mobile-left {
         // Style for "Прямоуголь"
         width: 36px;
@@ -165,6 +167,7 @@ $color-gray:#aac0c8;
       }
       height: 711px;
       @extend %background-alpha-wite;
+      border-radius: 15px;
       .green-alpha{
         background-color: $color-green;
         background:rgba($color-green, 0.9);
