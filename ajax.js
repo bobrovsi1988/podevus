@@ -13,3 +13,18 @@ $(document).ready(function(){
         });
     });
 });
+$(document).ready(function(){
+    $('#form2').on('submit', function(e){
+        //Stop the form from submitting itself to the server.
+        e.preventDefault();
+
+        $.ajax({
+            type: "POST",
+            url: 'email.php',
+            data: $('#form').serialize(),
+            success: function(){
+                alert("мы с вами свяжемся");
+            }
+        });
+    });
+});
