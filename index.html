@@ -103,7 +103,7 @@
                         </div>
                         <form class="w-100 d-flex flex-column justify-content-between" enctype="multipart/form-data"  method="post" action="./email.php" id="form" name="form">
                             <input type="text" name="name" placeholder="Ваше имя" >
-                            <input type="text" name="tel" placeholder="Введите телефон" >
+                            <input type="text" name="tel" placeholder="Введите телефон" required>
                             <input type="text" name="peoples" placeholder="Количество человек">
                             <input type="text" name="month" placeholder="Месяц выезда">
 
@@ -113,6 +113,44 @@
                     </div>
                 </div>
             </div>
+
+    <!--Modal-->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="second-row-right-block  d-flex justify-content-center align-items-center p-2   modal-content" >
+            <img src="img/close.png" data-dismiss="modal" class="position-absolute" style="top: 0; right: -35px">
+        <div class="green-alpha d-flex justify-content-center align-items-center w-100 p-2 h-100 ">
+
+            <div class="border-white d-flex flex-column justify-content-around w-100 h-100 ">
+                <div class="block-1 text-right d-flex justify-content-end">
+                    <span></span>
+                    <p>ЗАПОЛНИТЕ
+                        ФОРМУ </p>
+                </div>
+                <div class="block-2 d-flex justify-content-between">
+                    <img src="img/form_img.png">
+                    <p class="text-right">МЫ ПОДБЕРЕМ ВАМ САМЫЕ
+                        ИНТЕРЕСНЫЕ ПРЕДЛОЖЕНИЯ
+                        ПО БОЛГАРИИ</p>
+                </div>
+                <form class="w-100 d-flex flex-column justify-content-between" enctype="multipart/form-data"  method="post" action="./email.php" id="form2" name="form">
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                    <input type="text" name="tel" placeholder="Введите телефон" required>
+
+
+                </form>
+                <BUTTON type="submit" form="form2">ОТПРАВИТЬ</BUTTON>
+                <img src="img/лого.png">
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+</div>
+    <!--end Modal-->
+
+
 </div>
             <img class="position-absolute big-img  d-md-none d-lg-block " src="img/first-block-img.png">
         </div>
@@ -524,7 +562,7 @@
                                 УЛ. ОЛЬШЕВСКОГО, 28</p>
                             <p class="w-75">220030, Г.МИНСК,<br>
                                 УЛ. КОМСОМОЛЬСКАЯ, 13</p>
-                            <button class="w-75">ЗАКАЗАТЬ ЗВОНОК</button>
+                            <button class="w-75" data-toggle="modal" data-target="#myModal">ЗАКАЗАТЬ ЗВОНОК</button>
 
                         </div>
                     </div>
@@ -667,6 +705,8 @@
 <p class="m-0">ООО "ПОДЕВЮС, PODEVUS" 2019. Все права защищеныООО "ПОДЕВЮС, PODEVUS" 2019. Все права защищены</p>
     <div class="d-flex align-items-end pr-3">OVEREST<div class="button" id="toTop"></div></div>
 </footer>
+
+
 
 
 
